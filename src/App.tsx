@@ -7,6 +7,7 @@ function App() {
     <div className="container">
       <h1>Calculator</h1>
       <Calculator />
+      <footer>&copy; Maria Aluko</footer>
     </div>
   )
 }
