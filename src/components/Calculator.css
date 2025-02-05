@@ -1,5 +1,5 @@
 .calculator {
-  height: 530px;
+  height: 540px;
   width: 335px;
   padding: 20px;
   border-radius: 20px;
@@ -11,11 +11,18 @@ input {
   width: 90%;
   border-style: none;
   color: #ffffff;
-  background-color: #071115;
+  background-color: #1d1c2b;
   padding: 0.1em;
-  margin: 0.1em 0 0.4em 0;
+  margin: 0.1em 0;
   font-size: 2.7em;
   text-align: right;
+}
+
+.display {
+  background-color: #1d1c2b;
+  border-radius: 20px;
+  margin: 0.5em auto 1em auto;
+  width: 98%;
 }
 
 .subtle {

@@ -94,7 +94,7 @@ const Calculator: React.FC = () => {
   
   return (
     <div className="calculator">
-      <div className='column'>
+      <div className='column display'>
         <input className='subtle' type="text" value={getDisplayText()} readOnly />
         <input type="text" value={currentValue} readOnly />
       </div>
